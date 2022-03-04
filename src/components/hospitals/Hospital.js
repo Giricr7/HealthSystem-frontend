@@ -9,7 +9,7 @@ const Hospital = ({ getHospital, hospital: { hospital, loading }, match }) => {
 
     useEffect(() => {
         getHospital(match.params.id);
-    }, [getHospital]);
+    }, [getHospital,match.params.id]);
 
     return loading || hospital === null ? (
         <Spinner />

@@ -10,7 +10,7 @@ const Patient = ({ getPatient, patient: { patient, loading }, match }) => {
 
     useEffect(() => {
         getPatient(match.params.id);
-    }, [getPatient]);
+    }, [getPatient,match.params.id]);
 
     return loading || patient === null ? (
         <Spinner />
