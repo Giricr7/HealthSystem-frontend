@@ -55,6 +55,10 @@ const Login = ({ login, isAuthenticated }) => {
             <p className="my-1">
                 Don't have an account? <Link to="/register">Sign Up</Link>
             </p>
+
+            <h6>Admin accress</h6>
+            <h6>Email: admin@example.com</h6>
+            <h6>Password: admin@123</h6>
         </>
     )
 }
