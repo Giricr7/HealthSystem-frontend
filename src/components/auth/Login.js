@@ -56,7 +56,7 @@ const Login = ({ login, isAuthenticated }) => {
                 Don't have an account? <Link to="/register">Sign Up</Link>
             </p>
 
-            <h5>Admin accress</h5>
+            <h5>Admin Access</h5>
             <h5>Email: admin@example.com</h5>
             <h5>Password: admin@123</h5>
         </>
